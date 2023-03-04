@@ -26,6 +26,15 @@
 /package/feeds
 /package/openwrt-packages
 /*.patch
+/.bash
+/.bash*
+/.zsh*
+/.face*
+/.local
+/.java
+/.conf
+/.viminfo
+/.profile
 /llvm-bpf*
 key-build*
 *.orig
