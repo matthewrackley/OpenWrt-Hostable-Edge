@@ -1,0 +1,21 @@
+Source-Makefile: feeds/oui/applications/oui-app-stations/Makefile
+
+Package: oui-app-stations
+Submenu: Applications
+Version: git-2023.063.24515-71cac08-1
+Depends: +libc +oui-ui-core
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: oui
+Category: Oui
+Repository: base
+Title: Stations
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Stations
+
+@@
+
+
