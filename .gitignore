@@ -3,7 +3,6 @@
 .*.swp
 /env
 /dl
-/.config
 /.config.old
 /.toolchain_build_ver
 /bin
@@ -11,8 +10,17 @@
 /staging_dir
 /tmp
 /logs
-/feeds
-/feeds.conf
+/feeds/packages
+/feeds/luci
+/feeds/routing
+/feeds/telephony
+/feeds/video
+/feeds/oldpackages
+/feeds/mt76
+/feeds/mtk_wifi_gpl
+/feeds/mtk_openwrt_feed
+/feeds/kenzo
+/feeds/small
 /files
 /overlay
 /package/feeds
