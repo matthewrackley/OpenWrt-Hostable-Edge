@@ -2,7 +2,7 @@ Source-Makefile: feeds/oui/applications/oui-app-dhcp-lease/Makefile
 
 Package: oui-app-dhcp-lease
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 

@@ -2,7 +2,7 @@ Source-Makefile: feeds/oui/applications/oui-app-acl/Makefile
 
 Package: oui-app-acl
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -23,7 +23,7 @@ Source-Makefile: feeds/oui/applications/oui-app-backup/Makefile
 
 Package: oui-app-backup
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -44,7 +44,7 @@ Source-Makefile: feeds/oui/applications/oui-app-demo/Makefile
 
 Package: oui-app-demo
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -65,7 +65,7 @@ Source-Makefile: feeds/oui/applications/oui-app-dhcp-lease/Makefile
 
 Package: oui-app-dhcp-lease
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -86,7 +86,7 @@ Source-Makefile: feeds/oui/applications/oui-app-home/Makefile
 
 Package: oui-app-home
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -107,7 +107,7 @@ Source-Makefile: feeds/oui/applications/oui-app-layout/Makefile
 
 Package: oui-app-layout
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -128,7 +128,7 @@ Source-Makefile: feeds/oui/applications/oui-app-login/Makefile
 
 Package: oui-app-login
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -149,7 +149,7 @@ Source-Makefile: feeds/oui/applications/oui-app-stations/Makefile
 
 Package: oui-app-stations
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -170,7 +170,7 @@ Source-Makefile: feeds/oui/applications/oui-app-system/Makefile
 
 Package: oui-app-system
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -191,7 +191,7 @@ Source-Makefile: feeds/oui/applications/oui-app-upgrade/Makefile
 
 Package: oui-app-upgrade
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -212,7 +212,7 @@ Source-Makefile: feeds/oui/applications/oui-app-user/Makefile
 
 Package: oui-app-user
 Submenu: Applications
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-ui-core
 Conflicts: 
 Menu-Depends: 
@@ -232,7 +232,7 @@ Description: User manage
 Source-Makefile: feeds/oui/oui-rpc-core/Makefile
 
 Package: oui-rpc-core
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +liblua +libuci-lua +libiwinfo-lua +libubus-lua +lua-cjson +nginx-ssl +@NGINX_HTTP_GZIP_STATIC +@NGINX_HTTP_ACCESS +@NGINX_HTTP_REWRITE +@NGINX_LUA
 Conflicts: 
 Menu-Depends: 
@@ -255,7 +255,7 @@ Source-Makefile: feeds/oui/oui-ui-core/Makefile
 Build-Depends: !OUI_USE_HOST_NODE:node/host
 
 Package: oui-ui-core
-Version: git-2023.063.24515-71cac08-1
+Version: git-2023.065.22842-29011d3-1
 Depends: +libc +oui-rpc-core
 Conflicts: 
 Menu-Depends: 

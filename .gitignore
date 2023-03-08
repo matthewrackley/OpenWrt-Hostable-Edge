@@ -26,15 +26,7 @@
 /package/feeds
 /package/openwrt-packages
 /*.patch
-/.bash
-/.bash*
-/.zsh*
-/.face*
-/.local
-/.java
-/.conf
-/.viminfo
-/.profile
+/.home
 /llvm-bpf*
 key-build*
 *.orig
@@ -42,7 +34,6 @@ key-build*
 *~
 .#*
 *#
-/.gitconfig
 .emacs.desktop*
 TAGS*~
 git-src

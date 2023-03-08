@@ -18,7 +18,6 @@ PKG_LICENSE:=MIT
 PKG_BUILD_DEPENDS:=!OUI_USE_HOST_NODE:node/host
 
 PKG_CONFIG_DEPENDS:= \
-	CONFIG_OUI_WWW_DIR \
 	CONFIG_OUI_USE_HOST_NODE \
 	CONFIG_OUI_LOGIN_VIEW \
 	CONFIG_OUI_LAYOUT_VIEW \
@@ -36,10 +35,6 @@ define Package/oui-ui-core
 endef
 
 define Package/oui-ui-core/config
-  config OUI_WWW_DIR
-  	string "Customize the install DIR"
-	default "/oui"
-
   config OUI_LOGIN_VIEW
 	string "Customize the login view"
 	default "login"
@@ -79,9 +74,9 @@ define Build/Compile
 endef
 
 define Package/oui-ui-core/install
-	$(INSTALL_DIR) $(1)/usr/share/oui/menu.d $(1)/www$(CONFIG_OUI_WWW_DIR)
+	$(INSTALL_DIR) $(1)/usr/share/oui/menu.d $(1)/www
 	$(INSTALL_CONF) ./files/menu.json $(1)/usr/share/oui/menu.d/base.json
-	$(CP) $(PKG_BUILD_DIR)/htdoc/dist/* $(1)/www$(CONFIG_OUI_WWW_DIR)
+	$(CP) $(PKG_BUILD_DIR)//htdoc/dist/* $(1)/www
 endef
 
 $(eval $(call BuildPackage,oui-ui-core))
