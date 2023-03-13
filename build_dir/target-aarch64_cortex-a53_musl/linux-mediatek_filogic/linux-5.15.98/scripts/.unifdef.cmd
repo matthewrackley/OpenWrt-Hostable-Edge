@@ -1,4 +1,4 @@
-cmd_scripts/unifdef := gcc -Wp,-MMD,scripts/.unifdef.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -Wdeclaration-after-statement  -O2 -I/home/openwrt/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/openwrt/staging_dir/host/include  -L/home/openwrt/staging_dir/host/lib -o scripts/unifdef scripts/unifdef.c   
+cmd_scripts/unifdef := gcc -Wp,-MMD,scripts/.unifdef.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -Wdeclaration-after-statement  -O2 -I/home/kali/Documents/imagebuilder/openwrt/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/kali/Documents/imagebuilder/openwrt/staging_dir/host/include  -L/home/kali/Documents/imagebuilder/openwrt/staging_dir/host/lib -o scripts/unifdef scripts/unifdef.c   
 
 source_scripts/unifdef := scripts/unifdef.c
 

@@ -74,9 +74,9 @@ define Build/Compile
 endef
 
 define Package/oui-ui-core/install
-	$(INSTALL_DIR) $(1)/usr/share/oui/menu.d $(1)/www
+	$(INSTALL_DIR) $(1)/usr/share/oui/menu.d $(1)/www/oui
 	$(INSTALL_CONF) ./files/menu.json $(1)/usr/share/oui/menu.d/base.json
-	$(CP) $(PKG_BUILD_DIR)//htdoc/dist/* $(1)/www
+	$(CP) $(PKG_BUILD_DIR)//htdoc/dist/* $(1)/www/oui
 endef
 
 $(eval $(call BuildPackage,oui-ui-core))

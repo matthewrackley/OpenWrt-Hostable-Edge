@@ -2,7 +2,7 @@ Source-Makefile: feeds/oui/oui-ui-core/Makefile
 Build-Depends: !OUI_USE_HOST_NODE:node/host
 
 Package: oui-ui-core
-Version: git-2023.065.22842-29011d3-1
+Version: git-2023.069.54117-2636831-1
 Depends: +libc +oui-rpc-core
 Conflicts: 
 Menu-Depends: 

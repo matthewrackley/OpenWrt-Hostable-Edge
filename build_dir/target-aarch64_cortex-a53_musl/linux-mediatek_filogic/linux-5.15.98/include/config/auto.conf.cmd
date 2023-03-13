@@ -1395,7 +1395,7 @@ endif
 ifneq "$(KERNELVERSION)" "5.15.98"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CC)" "ccache_cc"
+ifneq "$(CC)" "aarch64-openwrt-linux-musl-gcc"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(LD)" "aarch64-openwrt-linux-musl-ld"
@@ -1404,7 +1404,7 @@ endif
 ifneq "$(srctree)" "."
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CC_VERSION_TEXT)" "aarch64-openwrt-linux-musl-gcc (OpenWrt GCC 12.2.0 r0-4917565) 12.2.0"
+ifneq "$(CC_VERSION_TEXT)" "aarch64-openwrt-linux-musl-gcc (OpenWrt GCC 12.2.0 r0-a6f768c78) 12.2.0"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(NM)" "aarch64-openwrt-linux-musl-nm"

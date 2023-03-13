@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/menu.o := gcc -Wp,-MMD,scripts/kconfig/.menu.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -Wdeclaration-after-statement  -O2 -I/home/openwrt/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/openwrt/staging_dir/host/include  -c -o scripts/kconfig/menu.o scripts/kconfig/menu.c
+cmd_scripts/kconfig/menu.o := gcc -Wp,-MMD,scripts/kconfig/.menu.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -Wdeclaration-after-statement  -O2 -I/home/kali/Documents/imagebuilder/openwrt/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/kali/Documents/imagebuilder/openwrt/staging_dir/host/include  -c -o scripts/kconfig/menu.o scripts/kconfig/menu.c
 
 source_scripts/kconfig/menu.o := scripts/kconfig/menu.c
 

@@ -1,4 +1,4 @@
-cmd_scripts/basic/fixdep := gcc -Wp,-MMD,scripts/basic/.fixdep.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -Wdeclaration-after-statement  -O2 -I/home/openwrt/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/openwrt/staging_dir/host/include  -L/home/openwrt/staging_dir/host/lib -o scripts/basic/fixdep scripts/basic/fixdep.c   
+cmd_scripts/basic/fixdep := gcc -Wp,-MMD,scripts/basic/.fixdep.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -Wdeclaration-after-statement  -O2 -I/home/kali/Documents/imagebuilder/openwrt/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/home/kali/Documents/imagebuilder/openwrt/staging_dir/host/include  -L/home/kali/Documents/imagebuilder/openwrt/staging_dir/host/lib -o scripts/basic/fixdep scripts/basic/fixdep.c   
 
 source_scripts/basic/fixdep := scripts/basic/fixdep.c
 
